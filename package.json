@@ -13,7 +13,10 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.{js,vue}": "eslint"
+    "*.{ts,js,vue}": [
+      "eslint",
+      "jest"
+    ]
   },
   "husky": {
     "hooks": {
