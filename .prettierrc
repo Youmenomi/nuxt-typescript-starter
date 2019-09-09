@@ -1,6 +1,14 @@
 {
-  "semi": false,
+  "semi": true,
   "arrowParens": "always",
   "singleQuote": true,
-  "htmlWhitespaceSensitivity": "ignore"
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": "*.js",
+      "options": {
+        "semi": false
+      }
+    }
+  ]
 }

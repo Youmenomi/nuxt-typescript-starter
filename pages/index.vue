@@ -3,7 +3,7 @@
     <div>
       <logo />
       <h1 class="title">YourAppName</h1>
-      <h2 class="subtitle">My tiptop Nuxt.js project</h2>
+      <h2 class="subtitle">My gnarly Nuxt.js project</h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
@@ -20,14 +20,15 @@
   </div>
 </template>
 
-<script>
-import Logo from '~/components/Logo.vue'
+<script lang="ts">
+import { createComponent } from '@vue/composition-api';
+import Logo from '~/components/Logo.vue';
 
-export default {
+export default createComponent({
   components: {
     Logo
   }
-}
+});
 </script>
 
 <style>
