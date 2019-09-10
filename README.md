@@ -1,4 +1,4 @@
-# nuxt-typescript-starter
+# nuxt-typescript-starter [![Build Status](https://cloud.drone.io/api/badges/Youmenomi/nuxt-typescript-starter/status.svg)](https://cloud.drone.io/Youmenomi/nuxt-typescript-starter)
 
 This boilerplate built with [Nuxt.js](https://nuxtjs.org/) showcasing how to add [TypeScript](https://www.typescriptlang.org/) support. It features integrations with ESLint (linting), Prettier (code formatting), Jest (testing), Axios (http calls on steroids), PWA (Progressive Web App) and Automatically run eslint and jest before git commit.
 
