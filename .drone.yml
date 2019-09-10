@@ -44,4 +44,5 @@ steps:
         {{/success}}
 
 trigger:
-  - master
+  branch:
+    - master
